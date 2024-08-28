@@ -5,10 +5,12 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Api\todoController;
 
-Route::get('/test', function() {
+Route::get('/test', function () {
     return "Test";
 });
-
+Route::get('/hello', function () {
+    return "Hello World!";
+});
 // routes/api.php
 Route::apiResource('todos', TodoController::class);
 
