@@ -9,7 +9,7 @@ Route::get('/test', function () {
     return "Test";
 });
 Route::get('/hello', function () {
-    return "Hello World!";
+    return "Hello gaisss";
 });
 // routes/api.php
 Route::apiResource('todos', TodoController::class);
